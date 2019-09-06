@@ -1,6 +1,7 @@
 name: KEMM30
 channels:
   - conda-forge
+  - teokem
   - omnia
   - anaconda 
 dependencies:
@@ -15,10 +16,12 @@ dependencies:
   - matplotlib=3.0.2
   - ipywidgets
   - biopython
+  - teokem::faunus
   - brewer2mpl
   - rdkit
   - uncertainties
   - lmfit
+  - ffmpeg 
   - pip
   - pip: 
      - git+https://github.com/jjhelmus/nmrglue
