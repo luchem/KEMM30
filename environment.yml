@@ -1,28 +1,27 @@
 name: KEMM30
 channels:
   - conda-forge
+  - teokem
   - omnia
   - anaconda 
 dependencies:
-  - python=3.*
-  - lxml=4.3
-  - openpyxl=2.6
-  - mdtraj
-  - nglview
-  - pandas
-  - scipy
-  - numpy
-  - jupyter
-  - matplotlib
-  - ipywidgets
-  - biopython
-  - brewer2mpl
-  - widgetsnbextension
-  - jupyter_contrib_nbextensions
-  - rdkit
-  - uncertainties
-  - lmfit
-  - ffmpeg 
-  - pip
+  - python=3.7.12
+  - lxml=4.3.4
+  - openpyxl=2.6.4
+  - mdtraj=1.9.7
+  - nglview=3.0.3
+  - pandas=0.25.3
+  - scipy=1.7.3
+  - numpy=1.21.6
+  - matplotlib=3.0.2
+  - ipywidgets=7.7.2
+  - biopython=1.79
+  - teokem::faunus
+  - brewer2mpl=1.4.1
+  - rdkit=2022.03.5
+  - uncertainties=3.1.7
+  - lmfit=1.0.3
+  - ffmpeg=5.1.0
+  - pip=22.2.2
   - pip: 
      - git+https://github.com/jjhelmus/nmrglue
