@@ -11,8 +11,8 @@ dependencies:
   - mdtraj=1.9
   - nglview=3.0.3
   - pandas=0.25
-  - scipy=1.7
-  - numpy=1.21
+  - scipy=1
+  - numpy=1
   - matplotlib=3.0
   - ipywidgets=7.7.2
   - biopython=1.79
@@ -21,7 +21,7 @@ dependencies:
   - rdkit=2022.03.5
   - uncertainties=3.1
   - lmfit=1.0.3
-  - ffmpeg=5.1.0
+  - ffmpeg=5.1
   - pip
   - pip: 
      - git+https://github.com/jjhelmus/nmrglue
