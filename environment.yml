@@ -5,23 +5,23 @@ channels:
   - omnia
   - anaconda 
 dependencies:
-  - python=3.7.*
-  - lxml=4.3.*
-  - openpyxl=2.6.*
-  - mdtraj=1.9.*
+  - python=3
+  - lxml=4.3
+  - openpyxl=2.6
+  - mdtraj=1.9
   - nglview=3.0.3
-  - pandas=0.25.*
-  - scipy=1.7.*
-  - numpy=1.21.*
-  - matplotlib=3.0.*
+  - pandas=0.25
+  - scipy=1.7
+  - numpy=1.21
+  - matplotlib=3.0
   - ipywidgets=7.7.2
   - biopython=1.79
   - teokem::faunus
   - brewer2mpl=1.4.1
   - rdkit=2022.03.5
-  - uncertainties=3.1.*
+  - uncertainties=3.1
   - lmfit=1.0.3
   - ffmpeg=5.1.0
-  - pip=22.2.*
+  - pip
   - pip: 
      - git+https://github.com/jjhelmus/nmrglue
