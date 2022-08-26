@@ -13,7 +13,7 @@ dependencies:
   - pandas=0.25
   - scipy=1
   - numpy=1
-  - matplotlib=3.0
+  - matplotlib=3
   - ipywidgets=7.7.2
   - biopython=1.79
   - teokem::faunus
