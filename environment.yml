@@ -17,7 +17,6 @@ dependencies:
   - ipywidgets=7.7.2
   - faunus
   - biopython=1.79
-  - teokem::faunus
   - brewer2mpl=1.4.1
   - rdkit=2022.03.5
   - uncertainties=3.1
