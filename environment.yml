@@ -16,7 +16,6 @@ dependencies:
   - matplotlib=3
   - ipywidgets=7.7.2
   - biopython=1.79
-  - teokem::faunus
   - brewer2mpl=1.4.1
   - rdkit=2022.03.5
   - uncertainties=3.1
