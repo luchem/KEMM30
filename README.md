@@ -11,7 +11,7 @@ make sure all required packages are loaded by issuing the following terminal com
 
 ``` bash
     conda env create -f environment.yml
-    source activate KEMM30
+    conda activate KEMM30
     jupyter nbextension enable rubberband/main
     jupyter nbextension enable exercise2/main
     jupyter nbextension enable --py widgetsnbextension

@@ -15,6 +15,7 @@ dependencies:
   - numpy=1
   - matplotlib=3
   - ipywidgets=7.7.2
+  - faunus
   - biopython=1.79
   - teokem::faunus
   - brewer2mpl=1.4.1
