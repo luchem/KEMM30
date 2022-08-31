@@ -10,10 +10,10 @@ dependencies:
   - openpyxl=2.6
   - mdtraj=1.9
   - nglview=3.0.3
-  - pandas=0.25
-  - scipy=1
-  - numpy=1
-  - matplotlib=3
+  - pandas=1.4
+  - scipy=1.7
+  - numpy=1.21
+  - matplotlib=3.5
   - ipywidgets=7.7.2
   - faunus
   - biopython=1.79
