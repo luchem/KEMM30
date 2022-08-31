@@ -5,7 +5,7 @@ channels:
   - omnia
   - anaconda 
 dependencies:
-  - python>=3.8
+  - python=3.9
   - lxml=4.3
   - openpyxl=3
   - mdtraj=1.9
