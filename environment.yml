@@ -7,10 +7,10 @@ channels:
 dependencies:
   - python=3
   - lxml=4.3
-  - openpyxl=2.6
+  - openpyxl=3
   - mdtraj=1.9
   - nglview=3.0.3
-  - pandas=0.25
+  - pandas=1.1
   - scipy=1
   - numpy=1
   - matplotlib=3
