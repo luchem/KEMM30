@@ -5,7 +5,7 @@ channels:
   - omnia
   - anaconda 
 dependencies:
-  - python=3
+  - python=3.9
   - lxml=4
   - openpyxl=3
   - mdtraj=1
@@ -16,7 +16,6 @@ dependencies:
   - matplotlib=3
   - ipywidgets=7
   - faunus
-  - biopython=1
   - brewer2mpl=1
   - rdkit=2022.03.5
   - uncertainties=3
