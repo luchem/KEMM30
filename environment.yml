@@ -5,6 +5,7 @@ channels:
   - omnia
   - anaconda 
 dependencies:
+  - ipympl=0.9
   - python=3
   - lxml=4.3
   - openpyxl=3
