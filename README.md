@@ -32,8 +32,22 @@ command you will install the in one go your installation folder (or the user fol
 
 ## Usage with environment
 
-To open the Notebooks, install python via [Miniconda](https://conda.io/miniconda.html) and
-make sure all required packages are loaded by issuing the following terminal commands
+At Lund installing an environement is very slow. So we recommend to install only the minimum using conda and then
+install the rest via pip. To do this run the following commands:
+
+``` bash
+    conda env create -f environment_mini.yml
+    conda activate KEMM30
+	pip install lmfit ipympl lxml nglview ipywidgets brewer2mpl rdkit ffmpeg nmrglue
+    jupyter nbextension enable rubberband/main
+    jupyter nbextension enable exercise2/main
+    jupyter nbextension enable --py widgetsnbextension
+    jupyter-notebook
+```
+
+At home you can install all packages automatically. Install python via [Miniconda](https://conda.io/miniconda.html) 
+or the full anaconda from [Anaconda](https://www.anaconda.com/download) and 
+then make sure all required packages are loaded by issuing the following terminal commands:
 
 ``` bash
     conda env create -f environment.yml

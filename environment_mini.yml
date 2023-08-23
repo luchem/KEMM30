@@ -1,0 +1,8 @@
+name: KEMM30
+channels:
+  - conda-forge
+  - teokem
+  - anaconda 
+dependencies:
+  - python=3 
+  - pip
