@@ -21,14 +21,14 @@ by typing "jupyter lab" or "jupyter notebook" in a command line
     
 ## Usage without environment
 
-    The first (lecture) notebooks only use the standard scientific packages and you can start working directly. 
-    only for the last notebook you will need an additional package that you can install from within any notebook
-    with "!pip install lmfit" (and then restart the kernel to use it)
+The first (lecture) notebooks only use the standard scientific packages and you can start working directly. 
+only for the last notebook you will need an additional package that you can install from within any notebook
+with "!pip install lmfit" (and then restart the kernel to use it)
 
-    For the project notebooks you will need a number of extra packages. If you run from within any notebook this 
-    command you will install the in one go your installation folder (or the user folder in case of lacking rights)
+For the project notebooks you will need a number of extra packages. If you run from within any notebook this 
+command you will install the in one go your installation folder (or the user folder in case of lacking rights)
 
-    "!pip install lmfit ipympl lxml nglview ipywidgets brewer2mpl rdkit ffmpeg nmrglue"
+"!pip install lmfit ipympl lxml nglview ipywidgets brewer2mpl rdkit ffmpeg nmrglue"
 
 ## Usage with environment
 
