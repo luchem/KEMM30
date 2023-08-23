@@ -5,15 +5,13 @@ channels:
   - anaconda 
 dependencies:
   - python=3
+  - lmfit
+  - ipympl
+  - lxml 
+  - nglview
+  - ipywidgets 
+  - brewer2mpl 
+  - rdkit 
+  - ffmpeg 
+  - nmrglue
   - pip
-  - pip: 
-     - git+https://github.com/jjhelmus/nmrglue
-     - lmfit 
-     - ipympl 
-     - lxml 
-     - nglview
-     - ipywidgets 
-     - brewer2mpl 
-     - rdkit 
-     - ffmpeg 
-     - nmrglue
