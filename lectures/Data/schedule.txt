@@ -1,0 +1,10 @@
+Jupyter Notebooks, Datatypes, Strings, Lists, Loops, Simple reading and simple Plotting
+Flow Control, Read and write files(manually), Vectors, Slicing, Reading/Writing Vectors, Basic image work, Images as array
+Dictionaries, HDF5 File format, Pandas
+Details of plotting, (1D,2D, histograms, Distributon plots), create functions, some Statistical methods, Package Handling
+Model building, Parameter optimization, LmFit, Cleaning of data, 
+SVD-PCA, Catching up.
+Complex model formation, Global analysis
+Introduction to Neural Networks (Numpy, Torch and Keras)
+Open CV image work, Kmean filtering, Particle tracking, Interacting with external function (subprocess)),
+Examn
