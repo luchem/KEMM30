@@ -57,3 +57,5 @@ then make sure all required packages are loaded by issuing the following termina
     jupyter nbextension enable --py widgetsnbextension
     jupyter-notebook
 ```
+
+The before each usage you must "activate" the environment by typing "activate KEMM30"
