@@ -1,7 +1,6 @@
 name: KEMM30
 channels:
   - conda-forge
-  - teokem
   - omnia
   - anaconda 
 dependencies:
@@ -9,16 +8,14 @@ dependencies:
   - python=3
   - lxml=4.3
   - openpyxl=3
-  - mdtraj=1.9
   - nglview=3.0.3
   - pandas=1.1
   - scipy=1
   - numpy=1
   - matplotlib=3
-  - ipywidgets=7.7.2
-  - faunus
+  - ipywidgets=7.7
   - biopython=1.79
-  - brewer2mpl=1.4.1
+  - brewer2mpl=1.4
   - rdkit=2022.03.5
   - uncertainties=3.1
   - lmfit=1.0.3
