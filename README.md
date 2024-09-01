@@ -7,11 +7,13 @@
 
 Course files for KEMM30. 
 
-- To run this on a remote Jupyter server, click _launch binder_ above.
-- To run this on a local server download and unzip the code. Then launch a local server 
-by typing `jupyter lab` or `jupyter notebook` on a command line 
-(the adress field in any windows browser window is a command line).
+## Running
 
+Here are three ways you can run this:
+1. Log into Google Colab and navigate to _Github_ and search for `luchem`. Open the first notebook.
+2. Run using the free _My Binder_ server by clicking _launch binder_ above.
+3. On local Jupyter server. Download and unzip the code. Then launch a local server by typing `jupyter lab` or `jupyter notebook` on a command line 
+(the adress field in any windows browser window is a command line).
     - if this fails with "can not find command" it means that anaconda is not in the 
     search path. You can then either start a specified server/command line by starting 
     anaconda command prompt or by starting a server and navigating to the folder with your notebooks
