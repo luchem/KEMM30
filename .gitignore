@@ -106,3 +106,8 @@ venv.bak/
 
 # Mac
 .DS_Store
+.history/
+.vscode/
+
+# Secret local folder with answer files
+projects_answers/
