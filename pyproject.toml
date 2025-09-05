@@ -1,0 +1,28 @@
+[project]
+name = "kemm30"
+version = "0.1.0"
+description = "KEMM30 uv environment for easier installation of packages"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "biopython>=1.85",
+    "brewer2mpl>=1.4.1",
+    "ffmpeg>=1.4",
+    "ipympl>=0.9.7",
+    "ipywidgets>=8.1.7",
+    "lmfit>=1.3.4",
+    "lxml>=6.0.1",
+    "matplotlib>=3.10.5",
+    "mdtraj>=1.11.0",
+    "nglview>=3.1.4",
+    "nmrglue",
+    "numpy>=2.3.2",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.1",
+    "rdkit>=2025.3.6",
+    "scipy>=1.16.1",
+    "uncertainties>=3.2.3",
+]
+
+[tool.uv.sources]
+nmrglue = { git = "https://github.com/jjhelmus/nmrglue" }
