@@ -41,7 +41,7 @@ command you will install the in one go your installation folder (or the user fol
 
 The uv environment is located in the `pyproject.toml` file. uv is a fast package manager written in Rust. It works on a project level. It is not compatible with conda. It tends to be faster and more efficient than conda when it comes to sharing environments cross-platform.
 
-uv can be installed by running `curl -LsSf https://astral.sh/uv/install.sh | sh`. To install the packages and initialize the local environment, enter the root of the repository (where this README is located!), and run `uv sync`. After doing so, all relevant packages are installed and the environment can be used by running `source .venv/bin/activate` on MacOS and Linux, or `.venv\Scripts\activate` on Windows. Jupyter can then be launched as described below.
+uv can be installed by running `curl -LsSf https://astral.sh/uv/install.sh | sh` or by going to their [website](https://docs.astral.sh/uv/getting-started/installation/) and choosing your desired installation method. To install the packages and initialize the local environment, enter the root of the repository (where this README is located!), and run `uv sync`. After doing so, all relevant packages are installed and the environment can be used by running `source .venv/bin/activate` on MacOS and Linux, or `.venv\Scripts\activate` on Windows. Jupyter can then be launched as described below.
 
 ### Using the Conda environment
 
