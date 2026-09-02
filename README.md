@@ -18,8 +18,7 @@ There are three ways to run the notebooks:
 ## Usage without environment
 
 The first (lecture) notebooks only use the standard scientific packages and you can start working directly.
-only for the last notebook you will need an additional package that you can install from within any notebook
-with `!pip install lmfit` (and then restart the kernel to use it)
+For some of the notebooks you will need additional packages that you can install from within any notebook with `!pip install lmfit` (and then restart the kernel to use it)
 
 For the project notebooks you will need a number of extra packages. If you run from within any notebook this
 command you will install the in one go your installation folder (or the user folder in case of lacking rights)
