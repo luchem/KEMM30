@@ -9,20 +9,11 @@ Course files for KEMM30.
 
 ## Running
 
-Here are three different ways you can run Notebooks:
+There are three ways to run the notebooks:
 
-1. Log into Google Colab and navigate to _Github_ and search for `luchem`. Open the first notebook.
-   <img width="600" alt="colab-github-open" src="https://github.com/user-attachments/assets/b5704df5-034a-4274-8fc1-485c34cf3f78" />
-2. Run using the free _My Binder_ server by clicking _launch binder_ above.
-3. On a local Jupyter server. Download and unzip the code. Then launch a local server by typing `jupyter-lab` on a the command line
-   (the adress field in any windows browser window is a command line). - if this fails with "can not find command" it means that anaconda is not in the
-   search path. You can then either start a specified server/command line by starting
-   anaconda command prompt or by starting a server and navigating to the folder with your notebooks - add the python script folder to your environment variables. This folder can be
-   in different location but is usually easy to find. You search for the `Anaconda3` folder either at:
-   `C:\Anaconda3`, at `C:\Programs\Anaconda3`, `C:\Users\my_name\Anaconda3`,... or using the search function.
-   At the university computers in Lund/chemistry the folder you need to add is `c:\Anaconda3\Scripts`.
-   For windows there is a small bat file in the main directory called `add_anaconda_scripts_to_path.bat` that
-   will do that for you (so simply double click on it).
+1. **Conda** — create and activate the `KEMM30` environment as described in [Using the Conda environment](#using-the-conda-environment).
+2. **uv** — create the project environment with `uv sync` and launch JupyterLab as described in [Using the uv environment](#using-the-uv-environment).
+3. **Google Colab** — open a notebook using the Colab badge at the top of this page, as described in [Using Google Colab](#using-google-colab).
 
 ## Usage without environment
 
@@ -37,11 +28,16 @@ command you will install the in one go your installation folder (or the user fol
 
 ## Usage with environment
 
-### Using the uv environment
+### Using the `uv` environment (recommended for local install)
 
-The uv environment is located in the `pyproject.toml` file. uv is a fast package manager written in Rust. It works on a project level. It is not compatible with conda. It tends to be faster and more efficient than conda when it comes to sharing environments cross-platform.
+First install `uv` by following instructions
+[here](https://docs.astral.sh/uv/getting-started/installation/).
+Then, go to the KEMM30 directory in a terminal and type:
 
-uv can be installed by running `curl -LsSf https://astral.sh/uv/install.sh | sh` or by going to their [website](https://docs.astral.sh/uv/getting-started/installation/) and choosing your desired installation method. To install the packages and initialize the local environment, enter the root of the repository (where this README is located!), and run `uv sync`. After doing so, all relevant packages are installed and the environment can be used by running `source .venv/bin/activate` on MacOS and Linux, or `.venv\Scripts\activate` on Windows. Jupyter can then be launched as described below.
+```bash
+uv sync
+uv run jupyter lab
+```
 
 ### Using the Conda environment
 
@@ -72,3 +68,7 @@ jupyter-notebook
 ```
 
 The before each usage you must "activate" the environment by typing `activate KEMM30`.
+
+### Using Google Colab
+
+Open the desired notebook in Google Colab using the Colab badge at the top of this page, or upload a notebook manually. Colab provides a temporary Python environment, so run the notebook's Colab setup cells before starting the analysis. The project notebooks are located in [`projects/`](projects/).
