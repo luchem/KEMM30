@@ -111,3 +111,10 @@ venv.bak/
 
 # Secret local folder with answer files
 projects_answers/
+
+# Files written by running the lecture notebooks
+lectures/test_file.dat
+lectures/compounds_with_properties.csv
+
+# Pooch downloads that landed next to the source data (32-char hash prefix)
+lectures/Data/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]*-*
